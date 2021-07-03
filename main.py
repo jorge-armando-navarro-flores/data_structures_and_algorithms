@@ -1,3 +1,4 @@
+print("\n##### DATA STRUCTURES #####\n")
 print("Linked List:")
 from data_structures import linked_list_implementation
 print("\nDouble linked list:")
@@ -10,3 +11,11 @@ print("\nBinary search tree:")
 from data_structures import binary_search_tree_implementation
 print("\nGraph:")
 from data_structures import graph_implementation
+print("\n##### ALGORITHMS #####\n")
+print("## SORTING ##")
+print("\nBubble sort:")
+from algorithms.sorting import bubble_sort
+print("\nSelection sort:")
+from algorithms.sorting import selection_sort
+print("\nInsertion sort:")
+from algorithms.sorting import insertion_sort
