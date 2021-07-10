@@ -106,6 +106,9 @@ class BinarySearchTree:
               parentNode.right = leftMost
         return True
   
+  def BFS(self):
+    currentNode = self.root
+
 
     
 
@@ -118,19 +121,19 @@ class BinarySearchTree:
 myBST = BinarySearchTree()
 myBST.insert(9)
 myBST.insert(4)
-myBST.insert(6)
-myBST.insert(1)
 myBST.insert(20)
+myBST.insert(1)
+myBST.insert(6)
 myBST.insert(15)
 myBST.insert(170)
-myBST.insert(14)
 
 
-myBST.remove(9)
-print(myBST.lookup(1))
-print(myBST.lookup(6))
-print(myBST.lookup(15))
-print(myBST.lookup(170))
+
+# myBST.remove(9)
+# print(myBST.lookup(1))
+# print(myBST.lookup(6))
+# print(myBST.lookup(15))
+# print(myBST.lookup(170))
 
 
 
