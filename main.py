@@ -22,6 +22,8 @@
 # print("\nMerge sort:")
 # from algorithms.sorting import merge_sort
 print("## SEARCHING ##")
-print("\nBreadth first search:")
+print("\nBreadth first search (BST):")
 from algorithms.searching import breadth_first_search
+print("\nDeep first search (BST):")
+from algorithms.searching import deep_first_search
 
