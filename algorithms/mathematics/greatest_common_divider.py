@@ -12,6 +12,6 @@ def greatest_common_divider_optimized(a, b):
   else:
     return greatest_common_divider_optimized(b, a%b)
 
-print(greatest_common_divider_optimized(4, 6))
+
 
 
