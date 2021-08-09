@@ -64,7 +64,7 @@
 
 # print("\nPrime factors:")
 # from algorithms.mathematics.prime_factors import prime_factors_optimized
-# prime_factors_optimized(450)
+# prime_factors_optimized(12)
 
 # print("\nAll divisors of a number:")
 # from algorithms.mathematics.all_divisors_of_a_number import all_divisors_of_a_number_ordered
@@ -72,9 +72,13 @@
 
 # print("\nSieve of Erastosthenes:")
 # from algorithms.mathematics.sieve_of_eratosthenes import sieve_of_eratosthenes_optimized
-# sieve_of_eratosthenes_optimized(23)
+# sieve_of_eratosthenes_optimized(25)
 
-print("\nComputing power:")
-from algorithms.mathematics.computing_power import computing_power_iterative
-print(computing_power_iterative(3, 4))
+# print("\nComputing power:")
+# from algorithms.mathematics.computing_power import computing_power_iterative
+# print(computing_power_iterative(3, 4))
+
+from algorithms.bit_magic.check_kth_is_set import check_kth_is_set
+print("## Bit magic ##")
+check_kth_is_set(5, 3)
 
