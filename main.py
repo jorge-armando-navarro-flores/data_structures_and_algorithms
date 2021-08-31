@@ -78,7 +78,48 @@
 # from algorithms.mathematics.computing_power import computing_power_iterative
 # print(computing_power_iterative(3, 4))
 
-from algorithms.bit_magic.check_kth_is_set import check_kth_is_set
-print("## Bit magic ##")
-check_kth_is_set(5, 3)
+# from algorithms.bit_magic.check_kth_is_set import check_kth_is_set
+# print("## Bit magic ##")
+# check_kth_is_set(5, 3)
+
+# from algorithms.bit_magic.count_set_bits import lookup_table
+# print("\nCount set bits:")
+# print(lookup_table(13))
+
+# from algorithms.bit_magic.is_power_of_two import is_power_of_two
+# print("\nPower of two:")
+# print(is_power_of_two(2))
+
+# from algorithms.bit_magic.one_odd_occurring import get_one_odd_occurring
+# print("\nOne odd occurring:")
+# print(get_one_odd_occurring([4, 3, 4, 4, 4, 5, 5]))
+
+# from algorithms.bit_magic.one_odd_occurring import find_missing_no
+# print("\nFind missing no:")
+# print(find_missing_no([1, 5, 3, 2]))
+
+# from algorithms.bit_magic.two_odd_ocurring import get_two_odd_ocurring
+# print("\nTwo odd ocurring:")
+# print(get_two_odd_ocurring([3, 4, 3, 4, 8, 4, 4, 32, 7, 7]))
+
+# from algorithms.bit_magic.power_set_using_bitwise import get_string_subsets
+# print("\nString subsets:")
+# print(get_string_subsets('abc'))
+
+print("## RECURSION ##")
+# print("\nBinary representation:")
+# from algorithms.recursion.binary_representation import binary_representation
+# binary_representation(7)
+
+# print("\nLogN2:")
+# from algorithms.recursion.logN2 import logN2
+# print(logN2(16))
+
+# print("\nFactorials:")
+# from algorithms.recursion.factorials import findFactorialRecursive
+# print(findFactorialRecursive(5))
+
+print("\nFibbonacci:")
+from algorithms.recursion.fibonacci import fibonacciRecursive
+print(fibonacciRecursive(7))
 
