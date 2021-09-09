@@ -119,7 +119,19 @@ print("## RECURSION ##")
 # from algorithms.recursion.factorials import findFactorialRecursive
 # print(findFactorialRecursive(5))
 
-print("\nFibbonacci:")
-from algorithms.recursion.fibonacci import fibonacciRecursive
-print(fibonacciRecursive(7))
+# print("\nFibbonacci:")
+# from algorithms.recursion.fibonacci import fibonacciRecursive
+# print(fibonacciRecursive(7))
+
+# print("\nPalindrome check:")
+# from algorithms.recursion.palindrome_check import palindrome_check
+# print(palindrome_check("abba"))
+
+# print("\nSum of digits:")
+# from algorithms.recursion.sum_of_digits import sum_of_digits
+# print(sum_of_digits(10))
+
+print("\nRope cutting problem:")
+from algorithms.recursion.rope_cuttting_problem import rope_cutting_problem
+print(rope_cutting_problem(23, 11, 9, 12))
 
