@@ -131,7 +131,15 @@ print("## RECURSION ##")
 # from algorithms.recursion.sum_of_digits import sum_of_digits
 # print(sum_of_digits(10))
 
-print("\nRope cutting problem:")
-from algorithms.recursion.rope_cuttting_problem import rope_cutting_problem
-print(rope_cutting_problem(23, 11, 9, 12))
+# print("\nRope cutting problem:")
+# from algorithms.recursion.rope_cuttting_problem import rope_cutting_problem
+# print(rope_cutting_problem(23, 11, 9, 12))
+
+# print("\nGenerate subsets:")
+# from algorithms.recursion.generate_subsets import generate_subsets
+# generate_subsets("AB", "")
+
+print("\nGenerate subsets:")
+from algorithms.recursion.tower_of_hanoi import tower_of_hanoi
+tower_of_hanoi(3,"A", "B", "C")
 
