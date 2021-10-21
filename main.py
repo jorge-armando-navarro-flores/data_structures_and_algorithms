@@ -14,8 +14,8 @@
 # print("\nBinary search tree:")
 # from data_structures import binary_search_tree_implementation
 
-# print("\nGraph:")
-# from data_structures import graph_implementation
+print("\nGraph:")
+from data_structures import graph_implementation
 
 # print("\n##### ALGORITHMS #####\n")
 # print("## SORTING ##")
@@ -106,7 +106,7 @@
 # print("\nString subsets:")
 # print(get_string_subsets('abc'))
 
-print("## RECURSION ##")
+# print("## RECURSION ##")
 # print("\nBinary representation:")
 # from algorithms.recursion.binary_representation import binary_representation
 # binary_representation(7)
@@ -139,7 +139,101 @@ print("## RECURSION ##")
 # from algorithms.recursion.generate_subsets import generate_subsets
 # generate_subsets("AB", "")
 
-print("\nGenerate subsets:")
-from algorithms.recursion.tower_of_hanoi import tower_of_hanoi
-tower_of_hanoi(3,"A", "B", "C")
+# print("\nGenerate subsets:")
+# from algorithms.recursion.tower_of_hanoi import tower_of_hanoi
+# tower_of_hanoi(3,"A", "B", "C")
+
+# print("\nJosephus problem:")
+# from algorithms.recursion.josephus_problem import josephus_problem
+# print(josephus_problem(5, 3))
+
+# print("\nSubset sum:")
+# from algorithms.recursion.subset_sum import subset_sum
+# print(subset_sum([10, 20, 25], 3, 25))
+
+# print("\nPrint permutations:")
+# from algorithms.recursion.print_permutations import print_permutations
+# print_permutations(["A", "B", "C"])
+
+# print("## ARRAYS ##")
+
+# print("\nLinear search:")
+# from algorithms.arrays.linear_search import linear_search
+# print(linear_search([3,5,7], 7))
+
+# print("\nInsert:")
+# from algorithms.arrays.insert import insert
+# print(insert([3,5,7,8,9,None, None, None], 7, 8))
+
+# print("\nDelete:")
+# from algorithms.arrays.delete import delete
+# print(delete([3,5,7,8,9],5, 5))
+
+# print("\nLargest element:")
+# from algorithms.arrays.largest_element import largest_element
+# print(largest_element([10,5,20,8]))
+
+# print("\nSecond largest element:")
+# from algorithms.arrays.second_largest_element import second_largest_element
+# print(second_largest_element([20,10,20,8,12]))
+
+# print("\nCheck array sorted:")
+# from algorithms.arrays.check_array_sorted import check_array_sorted
+# print(check_array_sorted([2, 2, 3]))
+
+# print("\nReverse an array:")
+# from algorithms.arrays.reverse_array import reverse_array
+# print(reverse_array([1, 2, 2, 3]))
+
+# print("\nRemove duplicates in sorted array:")
+# from algorithms.arrays.remove_duplicates_sorted_array import remove_duplicates_sorted_array
+# print(remove_duplicates_sorted_array([1, 2, 2, 3, 3, 3, 3]))
+
+# print("\nMove zeros to end:")
+# from algorithms.arrays.move_zeros_to_end import move_zeros_to_end
+# print(move_zeros_to_end([10, 5, 0, 0, 8, 0, 9, 0]))
+
+# print("\nLeft rotate array by one:")
+# from algorithms.arrays.left_rotate_array_by_one import left_rotate_array_by_one
+# print(left_rotate_array_by_one([10, 5, 0, 0, 8, 0, 9, 0]))
+
+# print("\nLeft rotate array by d:")
+# from algorithms.arrays.left_rotate_array_by_d import left_rotate_array_by_d
+# print(left_rotate_array_by_d([1, 2, 3, 4, 5], 2))
+
+# print("\nLeaders in an array:")
+# from algorithms.arrays.leaders_in_array import leaders_in_array
+# leaders_in_array([7, 10, 4, 10, 6 , 5, 2])
+
+# print("\nMaximum difference:")
+# from algorithms.arrays.maximum_difference import maximun_difference
+# print(maximun_difference([30, 10, 8, 2]))
+
+# print("\nFrequencies in sorted array:")
+# from algorithms.arrays.frequencies_in_sorted_array import frequencies_in_sorted_array
+# frequencies_in_sorted_array([10, 10, 10, 25, 30, 30, 15, 15, 17])
+
+# print("\nBuy and sell problem:")
+# from algorithms.arrays.buy_and_sell_problem import buy_and_sell_problem
+# print(buy_and_sell_problem([1,5,3,8,12]))
+
+# print("\nTrapping rain water:")
+# from algorithms.arrays.trapping_rain_water import trapping_rain_water
+# print(trapping_rain_water([5,0,6,2,3]))
+
+# print("\nTrapping rain water:")
+# from algorithms.arrays.max_consecutive_1s import max_consecutive_1s
+# print(max_consecutive_1s([1,0,1,1,1,1,0,1,1]))
+
+# print("\nMaximum subarray sum:")
+# from algorithms.arrays.maximum_subarray_sum import maximum_subarray_sum
+# print(maximum_subarray_sum([2,3,-8,7,-1,2,3]))
+
+# print("\nLonges even odd subarray:")
+# from algorithms.arrays.longest_even_odd_subarray import longest_even_odd_subarray
+# print(longest_even_odd_subarray([10,12,14,7,8]))
+
+print("\nMaximum circularsubarray sum:")
+from algorithms.arrays.maximum_circular_sum_subarray import maximum_circular_sum_subarray
+print(maximum_circular_sum_subarray([5,-2,3,4]))
 
